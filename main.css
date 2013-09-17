@@ -1,0 +1,149 @@
+/* ADD YOUR STYLES HERE */
+
+/*1. Data Table */
+
+table 
+{
+width: 100%;
+	}
+
+
+th, td {
+	border-bottom: 1px solid #c6c9cc;
+	width: 40px;
+	padding:10px;
+
+}
+
+tr td:first-child, table tr th:first-child{
+	width: 5px;
+}
+
+tr:last-child td{
+	border:0;
+}
+
+/* 2.Stats */
+.stats{
+	width:auto;
+	border-top: 1px solid #c6c9cc;
+	border-bottom: 1px solid #c6c9cc;
+}
+
+.number{
+	font-weight: bold;
+	font-size: 36px;
+	padding: 5px;
+	text-align: center;
+}
+
+.label{
+	font-weight: normal;
+	font-size: 12px;
+	color: #D0D0D0;
+	text-align:center;
+
+}
+
+/* 3. Bar Chart */
+.barchart {
+	padding: 0px;
+	border:none;
+}
+
+.barchart th{
+	border:inherit;
+	padding:0px;
+	padding-right: 10px;
+}
+
+.barchart tr{
+	border:inherit;
+	text-align: right;
+	white-space: nowrap;
+	vertical-align: center;
+	border-bottom: 1px solid white;
+}
+
+.barchart td {
+	width: auto;
+	font-size: 14px;
+	text-align: left;
+	color: white;
+	display: block;
+	vertical-align: center;
+	border:inherit;
+	padding:0px;
+}
+
+.Lang{
+	vertical-align: center;
+	background-color: #6699FF;
+	display: block;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	padding:3px;
+	padding-left: 5px;
+
+}
+
+/* 4.Lightbox 
+* {
+	box-sizing: border-box;
+}
+
+.background{
+	background-color:#666;
+    position: fixed;
+    z-index: 1;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+   	overflow:auto;		
+}
+
+.box {
+	background-color:white;
+	position: fixed;
+	width:535px;
+	height:275px;
+	margin: auto;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	border-radius: 10px;
+}
+
+.text{
+	padding: 20px;
+
+}
+
+.close {
+	background:#FF9999;
+	display:block;
+	float:right;
+	color:white;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 5px;
+}
+
+*/
+
+/* 5. Media Block */
+
+
+.inline-media {
+	float:left;
+	margin-right: 10px;
+}
+
+.cupcake {
+	display:block;
+	overflow:hidden;
+}
